@@ -1,0 +1,3 @@
+help: Show specified pptp interface information
+allowed: ${vyatta_sbindir}/vyatta-interfaces.pl --show=pptp-client
+run: ${vyatta_bindir}/show-input-policy.pl "$4"

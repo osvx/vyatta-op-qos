@@ -1,0 +1,2 @@
+help: Show pptp interface queueing information
+run: ${vyatta_bindir}/vyatta-show-queueing.pl --type=pptp-client
